@@ -4,7 +4,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++ build active file",
-            "command": "D:\\SDKs\\mingw64\\bin\\g++.exe",
+            "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-std=c++11",
@@ -17,7 +17,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -28,7 +28,7 @@
             "group": {
                 "isDefault": true,
                 "kind": "build",
-                "detail": "compiler: D:\\SDKs\\mingw64\\bin\\g++.exe"
+                "detail": "compiler: g++"
             }
         }
     ]
